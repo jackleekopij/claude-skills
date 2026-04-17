@@ -11,6 +11,14 @@ A research-backed learning system grounded in cognitive psychology (seven peer-r
 - **Study Mode** — Pre-test, source material processing, Obsidian study note generation, NotebookLM podcast prompts, and post-study quizzes.
 - **Test Mode** — Retrieval practice at the edge of your knowledge with persistent gap tracking across sessions.
 
+### [startup-evaluator](./startup-evaluator/)
+
+Evaluate startups with the rigor of a top-tier VC — covering value proposition, market, team, defensibility, unit economics, technical approach, and website/content quality. Synthesises classic frameworks (Sequoia, Helmer's 7 Powers, Gurley, YC, a16z, NFX) with AI-era considerations into structured, actionable reports. Includes reference libraries on foundational frameworks, moats & defensibility, unit economics, adtech/attention economics, and AI-era dynamics.
+
+### [agent-report-annotation](./agent-report-annotation/)
+
+Annotate AI-assisted reports with authority tiers to signal which claims are the human author's own positions vs. agent-generated analysis. Three tiers: **Author** (human's direct experience or strong conviction), **Reviewed** (human engaged critically), **Deferred** (agent-generated, read but not independently verified). Useful for maintaining credibility and transparency in co-authored analysis.
+
 ## Installation
 
 Copy a skill folder into your Claude Code skills directory:
