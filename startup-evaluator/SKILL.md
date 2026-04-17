@@ -492,3 +492,63 @@ When evaluating a startup, gather information in this order:
 
 Not all of this will be available for every evaluation. Work with what you have and
 flag what's missing.
+
+---
+
+## Part 5: Post-Draft Refinement Workflow
+
+The initial draft is never the final report. The following sequence has been validated
+across multiple evaluations and produces materially better output than a single-pass draft.
+
+### Step 1: Author Review & Corrections
+
+Present the draft to the human author. They will flag factual errors, missing context
+(they often know the founder, the industry, or the competitive landscape better than
+publicly available materials reveal), tone issues, and areas where the analysis overstates
+or understates risk. Apply corrections before proceeding.
+
+### Step 2: Framework Gap Analysis
+
+Re-read the completed draft against the reference library for each dimension. For each
+dimension, ask: "Did I apply the relevant framework, or did I rely on generic analysis?"
+
+Common gaps that surface on second pass:
+- Defensibility section that doesn't reference Helmer's 7 Powers or NFX network effects
+- Unit economics section that doesn't place revenue in Gurley's quality hierarchy
+- Traction section that doesn't assess PMF using Seibel's spectrum (especially split-signal
+  for marketplace/platform startups)
+- Competition section that lacks a structural precedent for the highest-risk dynamic
+- Market section without a concrete "why now?" tied to a technology/regulatory/behavioral
+  shift
+
+For each gap found, draft a specific addition with the framework citation integrated
+naturally — not as an academic reference but as an analytical lens that sharpens the insight.
+Propose additions to the author before applying.
+
+### Step 3: Key Assumptions
+
+Extract the 3-5 critical assumptions the analysis rests on — things that, if wrong, would
+materially change the conclusions. Present only assumptions that are:
+- **Non-obvious** — the reader might not realise they're assumed
+- **Testable** — the founder could verify or refute them with data they have
+- **Material** — if wrong, at least one dimension's signal would change
+
+Place these after the Executive Summary in a "Key Assumptions" section. Each assumption
+should state: what we assumed, where it affects the analysis, and what changes if it's wrong.
+
+### Step 4: Authority Tier Annotation (if co-authoring)
+
+If the report is co-authored with an AI agent, apply the `agent-report-annotation` skill
+to tag claims by authority level (Author / Reviewed / Deferred) and extract guiding
+principles. This step is the author's responsibility — they assign tiers, the agent applies
+them. Do not skip this for reports that will be shared externally.
+
+### Step 5: Brevity & Consistency Pass
+
+After multiple editing rounds, reports accumulate repetition. Search for:
+- Key phrases or arguments restated in multiple sections
+- Framework names or data points repeated more than 3 times
+- Sections that substantially duplicate analysis from other sections
+
+The fix is cross-referencing ("as analysed in Section 7") rather than deletion — the first
+full telling stays, subsequent mentions become brief references.
